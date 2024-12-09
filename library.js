@@ -83,31 +83,31 @@ const generateUid = function() {
 // test
 console.log('printPlaylists test');
 library.printPlaylists();
-console.log('--------------x--------------')
+console.log('--------------x--------------');
 
 console.log('printTracks test');
 library.printTracks();
-console.log('--------------x--------------')
+console.log('--------------x--------------');
 
 console.log('printPlaylist test');
 library.printPlaylist('p01');
-console.log('--------------x--------------')
+console.log('--------------x--------------');
 
 console.log('addTrackToPlaylist test');
 library.printPlaylist('p01');
 library.addTrackToPlaylist('t03', 'p01');
 library.printPlaylist('p01');
-console.log('--------------x--------------')
+console.log('--------------x--------------');
 
 console.log('addTrack test');
 library.addTrack('Come Play', 'Stray Kids', 'Arcane 2');
 library.printTracks();
-console.log('--------------x--------------')
+console.log('--------------x--------------');
 
 console.log('addPlaylist test');
 library.addPlaylist('Now');
 library.printPlaylists();
-console.log('--------------x--------------')
+console.log('--------------x--------------');
 
 
 // STRETCH:
